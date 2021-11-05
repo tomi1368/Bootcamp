@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.card{
+    margin: auto;
+    height: 420px;
+    width: 300px;
+    border-radius: 10px;
+    background: linear-gradient(138deg, rgba(105,175,245,1) 0%, rgba(158,109,231,1) 54%, rgba(237,10,211,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 0px 9px 22px -12px rgb(0 0 0);
+    background: linear-gradient(138deg, rgba(105,175,245,1) 0%, rgba(158,109,231,1) 54%, rgba(237,10,211,1) 100%);
+}
+
+h2{
+    font-weight: 100;
+}
+
+.price{
+    margin-top: -80px;
+    margin-bottom: -65px;
+    font-size:3rem;
+}
+
+.icon .fas{
+    font-size:3rem;
+    position: relative;
+    top: 17px;
+    left: 14px;
+}
+
+.info ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.info li{
+    list-style-type: none;
+    margin: 10px;
+    text-align: center;
+}
+
+button{
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.card2{
+    background: linear-gradient(
+    -45deg, #ffec61, #f321d7);
+}
+
+.icon2{
+    transform: rotate(-45deg);
+
+    background: linear-gradient(
+    -45deg, #ffec61, #f321d7);
+}
+
+.icon3{
+    background: linear-gradient(
+        120deg, #27fa77, #9456f9);
+}
+
+.card3{
+    background: linear-gradient(
+        120deg, #27fa77, #9456f9);
+}

@@ -1,0 +1,73 @@
+body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container{
+    width: 720px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    margin: auto;
+}
+
+.photo{
+    width: 300px;
+    height: 400px;
+    background-image: url(img/product-img\ —\ копия.png);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    padding: 30px 30px;
+}
+
+.info{
+    float: left;
+    width: 300px;
+    height: 400px;
+    background-color: #ffff;
+    padding: 30px 30px;
+}
+
+h2 {
+    font-family: 'Bentham', serif;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-family: 'Bentham', serif;
+    margin-top: 0;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: rgb(219, 216, 216);
+}
+
+p {
+    font-family: 'Trocchi', serif;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 25px;
+    color: grey;
+}
+
+a{
+    font-family: 'Trocchi', serif;
+    font-size: 30px;
+    transform:translate(10%, 200%);
+    display: block;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    background: rgb(156, 235, 213);
+    font-size: 20px;
+    color: #fff;
+}

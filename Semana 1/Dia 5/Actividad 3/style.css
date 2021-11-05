@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Farsan&family=Old+Standard+TT&display=swap');
+
+
+body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container{
+    width: 720px;
+    height: 400px;
+    background: #fff;
+    margin: auto;
+    position: relative;
+
+}
+
+.info{
+    float: left;
+    width: 40%;
+    padding: 30px 30px;
+}
+
+h1{
+    font-family: 'Old Standard TT',serif;
+
+}
+
+
+.photo{
+    width: 50%;
+    height: 400px;
+    background-image: url(img/HTB1Cic9HFXXXXbZXpXXq6xXFXXX3.jpg);
+    background-size: cover;
+    background-position: center;
+    float: right;
+}
+
+span{
+    float: right;
+    font-family: 'Dancing Script', cursive;
+    background-color: coral;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    transform: translate(-150%, 20%);
+}
+
+.stars{
+    color: #ffd700;
+    margin: -8%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
+}
+
+p{
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+.price{
+    margin: 50px 0 0 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.prueba{
+    width: 70px;
+    height: 40px;
+    float: left;
+    background-color: grey;
+    padding-top: 15px;
+
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: green;
+    float: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
