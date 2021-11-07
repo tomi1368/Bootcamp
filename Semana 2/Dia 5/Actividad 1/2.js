@@ -1,8 +1,5 @@
-function CalculaSegundos(v){
-    let Segundos=v*3600;
-    return console.log(v+" Horas son "+Segundos+" Segundos");
-}
+var HorasASegundos = (v) => v*3600;
 
 let hora = prompt("Ingresar una cantidad de horas: ");
 
-let = CalculaSegundos(hora);
+console.log(hora+" Horas son: "+HorasASegundos(hora)+" segundos");

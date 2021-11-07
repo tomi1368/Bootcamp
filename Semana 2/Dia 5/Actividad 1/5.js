@@ -1,9 +1,8 @@
-function invertir(v){
-    
-    let invertido = v.slice().reverse();
-    return console.log(v+" "+invertido);
-}
+var InvertirArray = (v) => {
+    let invertido = [...v]
+    return invertido.reverse();
+}; 
 
-let = array1 = ['1', '2', '3', '4', '5'];
-
-let = invertir(array1);
+let array = [1,2,3,4,5];
+console.log(InvertirArray(array));
+console.log(array);

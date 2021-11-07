@@ -1,10 +1,6 @@
-function unir(x,y){
-    let union = x.concat(y);
-    
-    return console.log(union.slice(1, -1));
-}
+var Unir = (a,b) => a.concat(b);
 
-let array1=[1,2,3,4,5];
-let array2=[6,7,8,9,10];
+let x=[1,2,3,4,5];
+let y=[6,7,8,9,10];
 
-let = unir(array1,array2);
+console.log(Unir(x,y).slice(1, -1));

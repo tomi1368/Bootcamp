@@ -1,16 +1,11 @@
-function nuevostring(v){
-    let letra1 = v.charAt(0);
-    let letra2 = v.charAt(1);
-    let letra3 = v.charAt(2);
-    let letra4 = v.charAt(v.length-1);
-    let letra5 = v.charAt(v.length-2);
-    let letra6 = v.charAt(v.length-3);
+var NuevoString = (v) => {
+    if (v.length >= 6){
+        return v.slice(0,3).concat(v.slice(-3))
+    } else{
+        return "Error"
+    }
+};
 
-    let string = letra1+letra2+letra3+letra6+letra5+letra4;
+let string = "Qweasdfgrty";
 
-    return console.log(string);
-}
-
-let str = "Qweasdfgrty";
-
-let = nuevostring(str);
+console.log(NuevoString(string));

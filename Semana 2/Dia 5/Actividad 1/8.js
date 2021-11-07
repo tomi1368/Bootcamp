@@ -1,7 +1,4 @@
-function comparacion(v, b = 'b') {
-    return console.log(v.charAt(v.length-1) == b);
-}
+var UltimaLetraB = v => v[v.length-1] === "b"
+let string = "dtfgyhbjdxdtfyguhb";
 
-let string = "dtfgyhbjdxdtfyguh";
-
-let = comparacion(string);
+console.log(UltimaLetraB(string));

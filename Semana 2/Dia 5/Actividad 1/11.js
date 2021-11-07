@@ -1,16 +1,16 @@
-function NumeroMasCercanoA100(a,b){
+var NumeroMasCercanoA100 = (a,b) => {
     let x = 100-a;
     let y = 100-b;
-
-    if(x > y){
-        console.log(x);
+    
+    if(x < y){
+        return a;
     }else{
-        console.log(y);
+        return b;
     }
-}
+};
 
-let n1 = 25;
+let n1 = 85;
 
-let n2 = 75;
+let n2 = 40;
 
-let = NumeroMasCercanoA100(n1,n2);
+console.log(NumeroMasCercanoA100(n1,n2));

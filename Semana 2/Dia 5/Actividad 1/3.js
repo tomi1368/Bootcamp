@@ -1,8 +1,4 @@
-function ArrayAString(v){
-  
-    return console.log(v.join(" "))
-}
+var ArrayAString = (v) => v.join(" ");
 
-let = array1 = ['a', 'a', 'a', 'a', 'a'];
-
-let = ArrayAString(array1);
+let array = [1,2,3,4,5];
+console.log(ArrayAString(array));

@@ -1,8 +1,4 @@
-function invertir(v){
-  
-    return console.log(v.reverse())
-}
+var InvertirArray = (v) => v.reverse();
 
-let = array1 = ['1', '2', '3', '4', '5'];
-
-let = invertir(array1);
+let array = [1,2,3,4,5];
+console.log(InvertirArray(array));

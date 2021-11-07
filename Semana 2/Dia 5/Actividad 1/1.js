@@ -1,8 +1,5 @@
-function CalcularDias(v){
-    let calcular=v*364;
-    return console.log("Edad en dias: "+calcular);
-}
+var EdadADias = (v) => v*365;
 
-let edad = prompt("Ingresar edad: ");
+let edad = prompt("Ingresar una edad: ");
 
-let = CalcularDias(edad);
+console.log("Edad en dias: "+EdadADias(edad))

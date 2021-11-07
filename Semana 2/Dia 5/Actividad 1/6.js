@@ -1,9 +1,6 @@
-function unir(x,y){
-    let union = x.concat(y);
-    return console.log(union);
-}
+var UnirArrays = (a,b) => a.concat(b);
 
-let array1=[1,2,3,4,5];
-let array2=[1,2,3,4,5];
+let x=[1,2,3,4,5];
+let y=[6,7,8,9,10];
 
-let = unir(array1,array2);
+console.log(UnirArrays(x,y));
