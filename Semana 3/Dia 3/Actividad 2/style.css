@@ -43,6 +43,10 @@ ul, ol {
     border: solid lightskyblue 2px;
 }
 
+:focus{
+    border: solid lightskyblue 2px;
+}
+
 .nav li ul {
     display:none;
     position:absolute;

@@ -1,3 +1,5 @@
-arr = ["foo", "bar", "baz", "qux", "origin"];
+arr = [10, "20", 30, "40", 50];
 
-console.log(arr.find(element => element === "baz"));
+stringconvert = [...arr].map(Number);
+
+console.log(stringconvert)

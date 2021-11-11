@@ -1,2 +1,3 @@
-cadena = "javascript";
-console.log(cadena[0].toUpperCase() + cadena.slice(1));
+str = "origin";
+console.log(str.replace(/[aeiou]/g, '1')
+)
